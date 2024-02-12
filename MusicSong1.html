@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Wayne Music Entertainment Lyrics</title>
+        <link rel = "stylesheet" href = "MusicSong1.css">
+    </head>
+    <body>
+        <div>
+            <header>
+                Wayne Music Entertainment Lyrics
+            </header>
+            <br>
+            <h1>Metallica - Nothing Else Matters</h1>
+            <main>
+                <section class = "section1">
+                    <p>
+                        So close, no matter how far<br>
+                        Couldn't be much more from the heart<br> 
+                        Forever trust in who we are<br> 
+                        And nothing else matters<br>
+                        <br><br>
+                        Never opened myself this way<br> 
+                        Life is ours, we live it our way<br> 
+                        All these words, I don't just say<br> 
+                        And nothing else matters<br> 
+                        <br><br>
+                        Trust I seek and I find in you<br> 
+                        Every day for us something new<br> 
+                        Open mind for a different view<br> 
+                        And nothing else matters<br> 
+                        <br><br>
+                        Never cared for what they do<br> 
+                        Never cared for what they know<br> 
+                        And I know<br> 
+                        <br><br>
+                        So close, no matter how far<br> 
+                        Couldn't be much more from the heart<br> 
+                        Forever trusting who we are<br> 
+                        And nothing else matters<br>
+                    </p>
+                </section>
+                <br><br>
+                <section class = "section2">
+                    <p>
+                        Never cared for what they do<br> 
+                        Never cared for what they know<br>  
+                        And I know, yeah<br>  
+                        <br><br>  
+                        I never opened myself this way<br>  
+                        Life is ours, we live it our way<br>  
+                        All these words, I don't just say<br>  
+                        And nothing else matters<br>  
+                        <br><br>  
+                        Trust I seek and I find in you<br>  
+                        Every day for us something new<br>  
+                        Open mind for a different view<br>  
+                        And nothing else matters<br>  
+                        <br><br>  
+                        Never cared for what they say<br>  
+                        Never cared for games they play<br>  
+                        Never cared for what they do<br>  
+                        Never cared for what they know<br>  
+                        And I know, ooh, yeah<br>  
+                        <br><br>  
+                        So close, no matter how far<br>  
+                        Couldn't be much more from the heart<br>  
+                        Forever trust in who we are<br>  
+                        No, nothing else matters<br> 
+                    </p>
+                </section>
+            </main>
+        </div>
+        <br><br> 
+        <footer>
+            Our website provides the lyrics for numerous songs from 1000's of artists covering over a million albums. To access these 
+            songs please provide the details below and sign up to become a free member with no additional charges!!
+        </footer>
+        <br>    
+            <!--Adding this tag to link the html page to the php page. All users who enter the details here should be saved to the database and displayed -->
+            <form action = "MusicSong2.php" method = "post">
+                <fieldset>
+                    <!--Add the header of the form-->
+                    <legend>New Member Sign-Up Details</legend>
+                    <!--1st field label-->
+                    <label for = "fullname">Full Name</label>
+                    <input type = "text" id = "fn" name = "fullname" required>
+                    <!--2nd field label-->
+                    <label for = "email">Email</label>
+                    <input type = "email" id = "mail" name = "useremail" required>
+                    <!--3rd field label-->
+                    <label for = "username">Username</label>
+                    <input type = "text" id = "un" name = "username" required>
+                    <!--4th field label-->
+                    <label for = "gender">Gender</label>
+                    <select type = "dropdown" id = "gen" name = "usergender" required>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Bi</option>
+                    </select>
+                    <!--Add 5th field label-->
+                    <label for = "dateofbirth">Age</label>
+                    <input type = "number" id = "age" name = "userage" max = "110" min = "16">
+                    <br><br>
+                    <!--Add 2 buttons. On click of submit, User will be directed to the next page with database displayed in table-->
+                    <button type = "submit"><strong>Submit</strong></button>
+                    <button type = "reset"><strong>Cancel</strong></button>
+                    <br>
+                </fieldset>
+            </form>
+            <br>
+            <footer>
+                Please visit <a href = "https://github.com/Dwayne94"><strong>My GitHub Profile</strong></a> to view more of my work. Thank You! 
+            </footer>
+            <br>
+    </body>
+</html>
